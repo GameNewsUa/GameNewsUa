@@ -1,0 +1,50 @@
+html{
+background: url(http://www.diablo1.ru/images/witcher3/wallpapers/witcher-3-wallpaper-05-1920x1200.jpg);
+}
+a{text-decoration:none;}
+ul{
+margin:0;
+padding:0;
+list-style-type:none;
+}
+/*Вигляд меню*/
+
+.side{
+width:200px;
+margin:20px;
+}
+.side a{
+background: #3d3d3d;
+color:#fff;
+padding:10px;
+display:block;
+border-bottom: 1px solid #666;
+transition: o.5s all;
+}
+.menu a:hover;{
+background: #666;
+}
+.header{
+color:white;
+text-align:center;
+}
+/*DropMenu*/
+
+.menu__list{
+position:relative;
+}
+.menu__drop{
+position:absolute;
+width:100%;
+left:105%;
+top:0;
+opacity:0;
+transition: o.5s opacity;
+border-left:10px solid red;
+}
+.menu__list:hover  .menu__drop{
+	opacity:1;
+}
+title{
+background:url(http://samlib.ru/img/s/shimohin_d_s/wedxmachxiznaki/wedxmachxiznaki-1.png);
+}
